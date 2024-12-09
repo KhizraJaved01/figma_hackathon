@@ -32,76 +32,38 @@ const Footer = () => {
                             <p>Address: 1234 Some St, City, Country</p>
                         </div>
                     </div>
+                    <div className="flex flex-col w-full md:w-2/3">  
+                    <div className="flex justify-between mb-6">  
+                        <div className="flex-1 mr-4">  
+                            <h2 className="font-medium text-black mb-4">CATEGORIES</h2>  
+                            <ul className="space-y-2">  
+                                <li><a href="#" className="text-gray-500 hover:text-black">First Link</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Second Link</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Third Link</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Fourth Link</a></li>  
+                            </ul>  
+                        </div>  
 
-                    <div className="w-full md:w-3/4 flex flex-wrap justify-between gap-8 md:gap-16">
-                        <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
-                            <h2 className="font-medium text-black mb-4">CATEGORIES</h2>
-                            <ul className="space-y-2">
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        First Link
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Second Link
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Third Link
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Fourth Link
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        <div className="flex-1 mr-4">  
+                            <h2 className="font-medium text-black mb-4">CUSTOMER CARE</h2>  
+                            <ul className="space-y-2">  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Customer Support</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Privacy Policy</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Terms & Conditions</a></li>  
+                            </ul>  
+                        </div>  
 
-                        <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
-                            <h2 className="font-medium text-black mb-4">CUSTOMER CARE</h2>
-                            <ul className="space-y-2">
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Customer Support
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Privacy Policy
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Terms & Conditions
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div className="flex flex-col w-full sm:w-1/2 md:w-1/3">
-                            <h2 className="font-medium text-black mb-4">PAGES</h2>
-                            <ul className="space-y-2">
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        About Us
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Services
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" className="text-gray-500 hover:text-white">
-                                        Careers
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                        <div className="flex-1">  
+                            <h2 className="font-medium text-black mb-4">PAGES</h2>  
+                            <ul className="space-y-2">  
+                                <li><a href="#" className="text-gray-500 hover:text-black">About Us</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Services</a></li>  
+                                <li><a href="#" className="text-gray-500 hover:text-black">Careers</a></li>  
+                            </ul>  
+                        </div>  
+                    </div>  
+                </div> 
+                    
                 </div>
             </div>
 
